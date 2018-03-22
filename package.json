@@ -16,11 +16,13 @@
     "eslint": "4.16.0",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.8.0",
-    "eslint-plugin-node": "5.2.1"
+    "eslint-plugin-node": "5.2.1",
+    "jest": "22.4.3"
   },
   "main": "src/index.js",
   "scripts": {
     "start": "node ./src",
-    "lint": "eslint ./ --ext .js"
+    "lint": "eslint ./ --ext .js",
+    "test": "jest"
   }
 }
